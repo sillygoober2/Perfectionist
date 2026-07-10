@@ -29,7 +29,7 @@ public class NInventoryBook {
             int height = inventory.height / 2 - 22;
 
             bookButton = new ImageButton(
-                    inventory.getLeftPos() + Constants.bookOffset, height,
+                    inventory.getGuiLeft() + Constants.bookOffset, height,
                     20, 18,
                     bookSprite,
                     button -> {
@@ -50,7 +50,7 @@ public class NInventoryBook {
         Screen screen = event.getScreen();
 
         if (screen instanceof InventoryScreen inventory) {
-            int xPos = inventory.getLeftPos() + Constants.bookOffset;
+            int xPos = inventory.getGuiLeft() + Constants.bookOffset;
 
             bookButton.setX(xPos);
         }
