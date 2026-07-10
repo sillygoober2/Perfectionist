@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c384fe76-42d5-4b83-85b8-0ab151bebd9f" name="Changes" comment="Init" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Perfectionist" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Perfectionist" type="f1a62948:ProjectNode" />
+                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Perfectionist" type="f1a62948:ProjectNode" />
+                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Perfectionist" type="f1a62948:ProjectNode" />
+                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Perfectionist" type="f1a62948:ProjectNode" />
+                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sillygoober2&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jaredlll08/MultiLoader-Template&quot;,
+    &quot;accountId&quot;: &quot;f0f5ee6e-8e53-4877-ad51-b3d3c1e5e576&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3GI8a8jETeGEeg3nPJb11kvPw7B" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Fabric Client (:fabric).executor": "Run",
+    "Gradle.Build Perfectionist.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.MultiLoader-Template [runClient].executor": "Run",
+    "Gradle.MultiLoader-Template:fabric [:fabric:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
+    "Gradle.MultiLoader-Template:neoforge [:neoforge:net.neoforged.devlaunch.Main.main()].executor": "Run",
+    "Gradle.Perfectionist [build].executor": "Run",
+    "Gradle.Perfectionist:neoforge [:neoforge:net.neoforged.devlaunch.Main.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Perfectionist/common/src/main/resources/assets/perfectionist/textures/gui",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Perfectionist\common\src\main\resources\assets\perfectionist\textures\gui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Perfectionist\common\src\main\resources" />
+      <recent name="D:\MultiLoader-Template\common\src\main\resources\assets\perfectionist" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="silly.perfectionist" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MultiLoader-Template [runClient]">
+    <configuration name="NeoForge Client (:neoforge)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Perfectionist.neoforge.main" />
+      <option name="PROGRAM_PARAMETERS" value="@D:\\Perfectionist\\neoforge\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@D:\\Perfectionist\\neoforge\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=perfectionist%%D:\\Perfectionist\\neoforge\\build\\classes\\java\\main;perfectionist%%D:\\Perfectionist\\neoforge\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neoforge/runs/client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeoForge Data (:neoforge)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Perfectionist.neoforge.main" />
+      <option name="PROGRAM_PARAMETERS" value="@D:\\Perfectionist\\neoforge\\build\\moddev\\dataRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@D:\\Perfectionist\\neoforge\\build\\moddev\\dataRunVmArgs.txt -Dfml.modFolders=perfectionist%%D:\\Perfectionist\\neoforge\\build\\classes\\java\\main;perfectionist%%D:\\Perfectionist\\neoforge\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neoforge/runs/data" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeoForge Server (:neoforge)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Perfectionist.neoforge.main" />
+      <option name="PROGRAM_PARAMETERS" value="@D:\\Perfectionist\\neoforge\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@D:\\Perfectionist\\neoforge\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=perfectionist%%D:\\Perfectionist\\neoforge\\build\\classes\\java\\main;perfectionist%%D:\\Perfectionist\\neoforge\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neoforge/runs/server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiLoader-Template [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Perfectionist [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Fabric Client (:fabric)" />
+      <item itemvalue="Application.Fabric Server (:fabric)" />
+      <item itemvalue="Application.NeoForge Client (:neoforge)" />
+      <item itemvalue="Application.NeoForge Data (:neoforge)" />
+      <item itemvalue="Application.NeoForge Server (:neoforge)" />
+      <item itemvalue="Gradle.Perfectionist [build]" />
+      <item itemvalue="Gradle.MultiLoader-Template [runClient]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MultiLoader-Template [runClient]" />
+        <item itemvalue="Gradle.Perfectionist [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c384fe76-42d5-4b83-85b8-0ab151bebd9f" name="Changes" comment="" />
+      <created>1783647784578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783647784578</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Init">
+      <option name="closed" value="true" />
+      <created>1783662412910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783662412910</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Init">
+      <option name="closed" value="true" />
+      <created>1783663049654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783663049654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+  </component>
+</project>
