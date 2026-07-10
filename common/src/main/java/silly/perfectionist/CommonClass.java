@@ -71,7 +71,7 @@ public class CommonClass {
         }
 
         while(openKey.consumeClick()){
-            if(mc.gui.screen() instanceof CommonScreen){
+            if(mc.screen instanceof CommonScreen){
                 mc.setScreenAndShow(null);
             } else{
                 mc.setScreenAndShow(new CommonScreen(dataManager));
@@ -115,7 +115,7 @@ public class CommonClass {
     private static void alertDiscover(ItemStack stack){
         Player player = Minecraft.getInstance().player;
         assert player != null;
-        player.sendOverlayMessage(Component.literal("Discovered: " + stack.getItemName().getString()).withColor(TextColor.GREEN));
+        player.sendOverlayMessage(Component.literal("Discovered: " + stack.getItemName().getString()).withColor(0x55FF55));
     }
 
     private static void checkStats(StatsCounter stats) {
