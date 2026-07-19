@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c384fe76-42d5-4b83-85b8-0ab151bebd9f" name="Changes" comment="Init" />
+    <list default="true" id="c384fe76-42d5-4b83-85b8-0ab151bebd9f" name="Changes" comment="Updates the order of items in UI&#10;removed some unobtainable items">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Client___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Client___fabric__fabric.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Server___fabric__fabric.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/BlacklistedItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/BlacklistedItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CollectionDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CollectionDataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CommonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CommonClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CommonScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CommonScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,37 +31,15 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/neoforge">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Perfectionist" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Perfectionist" type="f1a62948:ProjectNode" />
-                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Perfectionist" type="f1a62948:ProjectNode" />
-                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Perfectionist" type="f1a62948:ProjectNode" />
-                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Perfectionist" type="f1a62948:ProjectNode" />
-                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build setup" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -61,6 +49,11 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="26.2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -71,7 +64,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jaredlll08/MultiLoader-Template&quot;,
+    &quot;url&quot;: &quot;https://github.com/sillygoober2/Perfectionist.git&quot;,
     &quot;accountId&quot;: &quot;f0f5ee6e-8e53-4877-ad51-b3d3c1e5e576&quot;
   }
 }</component>
@@ -97,14 +90,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "26.1.2",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Perfectionist/common/src/main/resources/assets/perfectionist/textures/gui",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "last_opened_file_path": "D:/Perfectionist/common/src/main/java/silly/perfectionist",
+    "settings.editor.selected.configurable": "io.github.pandier.intellijdiscordrp.settings.DiscordSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Perfectionist\common\src\main\java\silly\perfectionist" />
       <recent name="D:\Perfectionist\common\src\main\resources\assets\perfectionist\textures\gui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -115,7 +109,7 @@
       <recent name="silly.perfectionist" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MultiLoader-Template [runClient]">
+  <component name="RunManager" selected="Gradle.Perfectionist [build]">
     <configuration name="NeoForge Client (:neoforge)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
       <module name="Perfectionist.neoforge.main" />
@@ -210,6 +204,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Perfectionist [build]" />
+        <item itemvalue="Gradle.MultiLoader-Template [runClient]" />
+        <item itemvalue="Gradle.Perfectionist [build]" />
         <item itemvalue="Gradle.MultiLoader-Template [runClient]" />
         <item itemvalue="Gradle.Perfectionist [build]" />
       </list>
@@ -239,7 +236,39 @@
       <option name="project" value="LOCAL" />
       <updated>1783663049654</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Init">
+      <option name="closed" value="true" />
+      <created>1783695255612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1783695255612</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Init">
+      <option name="closed" value="true" />
+      <created>1783715328962</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1783715328962</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated project properties to 26.1">
+      <option name="closed" value="true" />
+      <created>1783715622319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1783715622319</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updates the order of items in UI&#10;removed some unobtainable items">
+      <option name="closed" value="true" />
+      <created>1784498990457</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784498990457</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +284,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Updated project properties to 26.1" />
+    <MESSAGE value="Updates the order of items in UI&#10;removed some unobtainable items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates the order of items in UI&#10;removed some unobtainable items" />
   </component>
 </project>
