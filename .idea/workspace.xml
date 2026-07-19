@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c384fe76-42d5-4b83-85b8-0ab151bebd9f" name="Changes" comment="Init" />
+    <list default="true" id="c384fe76-42d5-4b83-85b8-0ab151bebd9f" name="Changes" comment="Init">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Client___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Client___fabric__fabric.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Server___fabric__fabric.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/BlacklistedItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/BlacklistedItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CollectionDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CollectionDataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CommonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CommonClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CommonScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/silly/perfectionist/CommonScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,31 +36,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Perfectionist" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Perfectionist" type="f1a62948:ProjectNode" />
-                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Perfectionist" type="f1a62948:ProjectNode" />
-                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Perfectionist" type="f1a62948:ProjectNode" />
-                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Perfectionist" type="f1a62948:ProjectNode" />
-                <item name="Perfectionist" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build setup" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -97,7 +81,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "26.1.1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Perfectionist/common/src/main/resources/assets/perfectionist/textures/gui",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
@@ -115,7 +99,7 @@
       <recent name="silly.perfectionist" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MultiLoader-Template [runClient]">
+  <component name="RunManager" selected="Gradle.Perfectionist [build]">
     <configuration name="NeoForge Client (:neoforge)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
       <module name="Perfectionist.neoforge.main" />
@@ -210,8 +194,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MultiLoader-Template [runClient]" />
         <item itemvalue="Gradle.Perfectionist [build]" />
+        <item itemvalue="Gradle.MultiLoader-Template [runClient]" />
       </list>
     </recent_temporary>
   </component>

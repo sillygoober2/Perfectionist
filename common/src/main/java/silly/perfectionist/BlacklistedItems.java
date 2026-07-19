@@ -21,6 +21,7 @@ public class BlacklistedItems {
             "minecraft:barrier",
             "minecraft:light",
             "minecraft:structure_void",
+            "minecraft:reinforced_deepslate",
 
             "minecraft:spawner",
             "minecraft:trial_spawner",
@@ -33,12 +34,14 @@ public class BlacklistedItems {
 
             "minecraft:command_block_minecart",
 
+            "minecraft:end_portal_frame",
             "minecraft:infested_stone",
             "minecraft:infested_cobblestone",
             "minecraft:infested_stone_bricks",
             "minecraft:infested_mossy_stone_bricks",
             "minecraft:infested_cracked_stone_bricks",
             "minecraft:infested_chiseled_stone_bricks",
+            "minecraft:infested_deepslate",
     };
 
     public static boolean isBlacklisted(Item item) {

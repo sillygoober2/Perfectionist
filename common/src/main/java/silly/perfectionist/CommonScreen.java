@@ -6,6 +6,7 @@ import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.input.KeyEvent;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
 import static silly.perfectionist.CollectionDataManager.allSurvivalStacks;
@@ -108,8 +109,8 @@ public class CommonScreen extends Screen {
         int endIndex = Math.min(startIndex + itemsPerPage, allSurvivalStacks.size());
 
         for (int i = startIndex; i < endIndex; i++) {
-            ItemStack stack = allSurvivalStacks.get(i);
-            String itemRegistryName = BuiltInRegistries.ITEM.getKey(stack.getItem()).toString();
+            Item item = allSurvivalStacks.get(i);
+            String itemRegistryName = BuiltInRegistries.ITEM.getKey(item).toString();
 
             int relativeIndex = i - startIndex;
             int col = relativeIndex % columns;
@@ -128,14 +129,14 @@ public class CommonScreen extends Screen {
             graphics.fill(x, y, x + slotSize - 2, y + slotSize - 2, borderColor);
             graphics.fill(x + 1, y + 1, x + slotSize - 3, y + slotSize - 3, backgroundColor);
 
-            graphics.item(stack, x + 7, y + 7);
+            graphics.item(new  ItemStack(item), x + 7, y + 7);
 
             if (!isUnlocked) {
                 graphics.fill(x + 1, y + 1, x + slotSize - 3, y + slotSize - 3, 0xAA111111);
             }
 
             if (mouseX >= x && mouseX <= x + slotSize - 2 && mouseY >= y && mouseY <= y + slotSize - 2) {
-                graphics.setTooltipForNextFrame(stack.getHoverName(), mouseX - 2, mouseY + 5);
+                graphics.setTooltipForNextFrame(new  ItemStack(item).getHoverName(), mouseX - 2, mouseY + 5);
             }
         }
     }
