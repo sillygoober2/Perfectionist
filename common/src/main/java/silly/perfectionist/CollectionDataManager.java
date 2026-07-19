@@ -4,47 +4,72 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import net.minecraft.client.Minecraft;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.SpawnEggItem;
+import net.minecraft.world.flag.FeatureFlagSet;
+import net.minecraft.world.item.*;
 
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class CollectionDataManager {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     private final Set<String> unlockedItems = new HashSet<>();
-    public static final List<ItemStack> allSurvivalStacks = new ArrayList<>();
+    public static final List<Item> allSurvivalStacks = new ArrayList<>();
 
     private String currentWorld = "";
 
     public void getPossibleItems(){
-        for(Item item : BuiltInRegistries.ITEM) {
-            if(item instanceof SpawnEggItem) continue;
+        Minecraft mc = Minecraft.getInstance();
 
-            String itemStringId = BuiltInRegistries.ITEM.getKey(item).toString();
+        allSurvivalStacks.clear();
+
+        CreativeModeTab searchTab = CreativeModeTabs.searchTab();
+        if (searchTab == null) return;
+
+        FeatureFlagSet featureFlags = mc.player.connection.enabledFeatures();
+        boolean hasOpPermissions = mc.options.operatorItemsTab().get() && mc.player.canUseGameMasterBlocks();
+        HolderLookup.Provider registries = mc.level.registryAccess();
+
+        CreativeModeTab.ItemDisplayParameters params = new CreativeModeTab.ItemDisplayParameters(
+                featureFlags,
+                false,
+                registries
+        );
+
+        for (CreativeModeTab tab : CreativeModeTabs.allTabs()) {
+            if (tab != searchTab) {
+                tab.buildContents(params);
+            }
+        }
+
+        searchTab.buildContents(params);
+
+        Collection<ItemStack> searchDisplayItems = searchTab.getDisplayItems();
+        if (searchDisplayItems == null || searchDisplayItems.isEmpty()) return;
+
+        for(ItemStack stack : searchDisplayItems) {
+            Item item = stack.getItem();
+            System.out.println(item.toString());
 
             if(BlacklistedItems.isBlacklisted(item)) continue;
+            if(allSurvivalStacks.contains(item)) continue;
 
+            String itemStringId = BuiltInRegistries.ITEM.getKey(item).toString();
             boolean isUnlocked = hasItem(itemStringId);
 
-            allSurvivalStacks.add(new ItemStack(item));
+            allSurvivalStacks.add(item);
 
             if (isUnlocked) {
                 unlockedItems.add(itemStringId);
             }
         }
-        System.out.println("Possible Items Amount: "+allSurvivalStacks.size());
-        System.out.println("ALL Minecraft Items: "+BuiltInRegistries.ITEM.size());
     }
 
     public void updateCurrentWorld() {

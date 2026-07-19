@@ -120,10 +120,9 @@ public class CommonClass {
 
     private static void checkStats(StatsCounter stats) {
         if(stats != null){
-            for (ItemStack stack : allSurvivalStacks) {
-                if (dataManager.hasItem(stack.getItemName().toString())) continue;
+            for (Item item : allSurvivalStacks) {
+                if (dataManager.hasItem(item.toString())) continue;
 
-                Item item = stack.getItem();
 
                 boolean hasInteracted = stats.getValue(Stats.ITEM_PICKED_UP.get(item)) > 0 ||
                         stats.getValue(Stats.ITEM_CRAFTED.get(item)) > 0 ||
